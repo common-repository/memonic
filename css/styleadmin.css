@@ -1,0 +1,221 @@
+/* formatting for admin backend memonic elements */
+
+div#memonic_collection .inside {
+	padding: 0;
+	margin: 0;
+}
+
+div#memonic_collection div#memonic_bar {
+	height: 32px;
+	padding: 3px 20px;
+	background-color: #E5E5E5;
+}
+
+div#memonic_collection div#memonic_list {
+	background: #fff url('../img/cork.jpg') repeat left top;
+	padding: 10px;
+	margin: 0;
+	max-height: 500px;
+	min-height: 125px;
+	overflow-y: scroll;
+}
+
+div#memonic_collection .right {
+	display: block;
+	float: right;
+}
+
+div#memonic_collection div#memonic_list .note {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 0.769em 0.769em 1.0em 2.462em;
+	box-shadow: #444 2px 2px 2px;
+	-moz-box-shadow: #444 2px 2px 2px;
+	-webkit-box-shadow: #444 2px 2px 2px;
+	background: white;
+	margin: 8px 13px;
+	border: 2px solid transparent;
+	position: relative;
+}
+
+div#memonic_collection div#memonic_list .info {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin: 8px 13px;
+	padding: 8px 12px;
+	background-color: black;
+	filter: alpha(opacity=45);
+	background-color: rgba(0, 0, 0, 0.45);
+	color: white;
+	font-weight: bold;
+	border: 1px solid #333;
+	box-shadow: inset 1px 1px 1px #333;
+	-webkit-box-shadow: inset 1px 1px 1px #333;
+	-moz-box-shadow: inset 1px 1px 1px #333;
+}
+
+div#memonic_collection .note:hover .insert-toolbar {
+	display: block;
+}
+
+div#memonic_collection .note .insert-toolbar {
+	display: none;
+	position: absolute;
+	background-color: #E5E5E5; 
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 3px 22px 2px 15px;
+	border-top: 1px solid #CCC;
+	-webkit-border-radius: 0 0 0.462em 0.462em;
+	-moz-border-radius: 0 0 0.462em 0.462em;
+	border-radius: 0 0 0.462em 0.462em;
+}
+
+div#memonic_list .note .insert-toolbar button,
+div#memonic_collection #memonic_bar button,
+div#memonic_collection #memonic_bar select {
+	height: 20px;
+	padding: 1px 3px;
+	border: 1px solid  #B3B3B3;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #e5e5e5;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e5e5e5), to(#d9d9d9)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #e5e5e5, #d9d9d9); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #e5e5e5, #d9d9d9); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #e5e5e5, #d9d9d9); /* IE10 */
+	background-image:      -o-linear-gradient(top, #e5e5e5, #d9d9d9); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #e5e5e5, #d9d9d9);
+	font-weight: bold;
+	font-size: 13px;
+	color: #5B5B5B;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+div#memonic_list .note .insert-toolbar button:hover,
+div#memonic_collection #memonic_bar button:hover {
+	background-color: 
+}
+
+div#memonic_list .note .insert-toolbar button[disabled],
+div#memonic_collection #memonic_bar button[disabled],
+div#memonic_collection #memonic_bar select[disabled] {
+	color: #ccc;
+	border-color: #ccc;
+}
+
+div#memonic_collection #memonic_bar #memonic_refresh_list {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	background-image: url(../img/actions.png);
+	background-position: -4px -873px;
+	background-repeat: no-repeat ;
+}
+
+div#memonic_list .button {
+	font-size: 1em;
+	font-weight: bold;
+	-webkit-border-radius: 0.3152em;
+	-moz-border-radius: 0.3152em;
+	border-radius: 0.3152em 0.3152em 0.3152em 0.3152em;
+	padding: 4px 17px 4px 17px;
+	position: relative;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+div#memonic_list .bluebutton {
+	background: #1C5BB0;
+	border: 1px white solid;
+	color: white;
+	box-shadow: 0 1px 3px #333;
+	-moz-box-shadow: 0 1px 3px #333;
+	-webkit-box-shadow: 0 1px 3px #333;
+}
+
+div#memonic_list .scroll_info {
+	text-align: center;
+	margin-top: 12px;
+}
+
+div#memonic_list .note h2 {
+	color: #036;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 0 5px;
+	text-align: left;
+}
+
+div#memonic_list .note h2 a {
+	color: #036;
+	text-decoration: none;
+}
+
+div#memonic_list .note h2 a:hover {
+	text-decoration: underline;
+}
+
+div#memonic_list .note .metadata {
+	color: #666;
+	font-size: 11px;
+}
+
+div#memonic_list .note .metadata .privacy {
+	text-indent: -99999px;
+	outline: none;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid transparent;
+	margin-right: 7px;
+	margin-top: 1px;
+	background: url(../img/actions.png) -9px -302px no-repeat;
+}
+
+div#memonic_list .note .metadata .privacy-public {
+	background-position: -9px -362px;
+}
+
+div#memonic_list .note .metadata .privacy-friends {
+	background-position: -9px -332px;
+}
+
+div#memonic_collection .note .abstract {
+	max-height: 50px;
+	overflow: hidden;
+}
+
+div#memonic_collection div#memonic_list .note img,
+div#memonic_collection div#memonic_list .note table {
+	max-width: 100%;
+}
+
+.dragActive {
+	border: 2px;
+}
+
+.target {
+	background-color: yellow;
+}
+
+.insertNote {
+	display: block;
+	float: right;
+	height: 22px;
+	width: 50px;
+}
